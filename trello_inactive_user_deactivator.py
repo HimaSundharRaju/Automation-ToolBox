@@ -84,3 +84,4 @@ inactive_users = get_inactive_members(trello_memberID, today)
 print(f"\nThere are {len(inactive_users)} users which are inactive and will now be deactivated...")
 
 deactivate_users(inactive_users)
+
